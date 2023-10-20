@@ -4,13 +4,13 @@
 
 ### Instalação
 
-- Primeiro, alterar para a branch do desafio-01 com o comando:
+- Alterar para a branch do **desafio-01** com o comando:
 
   ```bash
   git switch desafio-01
   ```
 
-- Fazer a instalação dos móduloes nodejs com o comando:
+- Fazer a instalação dos módulos nodejs com o comando:
 
   ```bash
   npm install
@@ -18,7 +18,7 @@
 
 ### Inicializando o projeto
 
-- Para inicializar o projeto executar o comando:
+- Para inicializar o projeto, executar o comando:
 
   ```bash
   npm run dev
