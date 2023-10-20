@@ -26,4 +26,8 @@
 
 ### Executando o projeto
 
-- Basta agora fazer uma requisição para a rota **GET /hello**
+- Basta agora fazer uma requisição para a rota **GET /hello** na porta 3000:
+
+  ```
+  http://localhost:3000/hello
+  ```
