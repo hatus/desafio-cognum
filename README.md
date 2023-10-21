@@ -1,6 +1,10 @@
 # Desafio Cognum
 
-## Desafio 02
+## Desafio 03
+
+### Objetivo
+
+- Integração com uma API desconhecida e avaliação de leitura em inglês.
 
 ### Informações Adicionais
 
@@ -10,10 +14,10 @@
 
 ### Instalação
 
-- Alterar para a branch do **desafio-02** com o comando:
+- Alterar para a branch do **desafio-03** com o comando:
 
   ```bash
-  git switch desafio-02
+  git switch desafio-03
   ```
 
 - Fazer a instalação dos módulos nodejs com o comando:
@@ -39,6 +43,13 @@
   - Os dados do banco de dados PostgreSQL estão no arquivo `.env`
 
 ### Rotas do projeto
+
+- Popula o banco de dados com 10 usuário aleatórios:
+
+  - Rota
+    ```
+    GET /employees/populate
+    ```
 
 - Cadastro de Employee
 
