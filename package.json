@@ -4,7 +4,9 @@
   "description": "Integração com banco de dados e operações CRUD.",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx watch src/server.ts",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate:dev": "prisma migrate dev"
   },
   "keywords": [],
   "author": "",
