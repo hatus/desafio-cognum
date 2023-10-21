@@ -7,6 +7,6 @@ export class ListAllEmployeesController {
 
     const { employees } = await listAllEmployeesIdUseCase.execute()
 
-    return res.status(201).json({ employees })
+    return res.status(200).json({ employees })
   }
 }
