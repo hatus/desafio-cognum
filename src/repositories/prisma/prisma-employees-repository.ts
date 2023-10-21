@@ -24,4 +24,17 @@ export class PrismaEmployessRepository implements EmployeesRepository {
     const employees = await prisma.employee.findMany()
     return employees
   }
+
+  async updateById({ id, name }: Employee): Promise<Employee> {
+    const updatedEmployees = await prisma.employee.update({
+      data: { name },
+      where: { id },
+    })
+
+    return updatedEmployees
+  }
+
+  async deleteById(id: string): Promise<void> {
+    await prisma.employee.delete({ where: { id } })
+  }
 }
