@@ -2,6 +2,10 @@
 
 ## Desafio 01
 
+### Objetivo
+
+- Implementar uma API RESTful simples usando Express.js.
+
 ### Instalação
 
 - Alterar para a branch do **desafio-01** com o comando:
