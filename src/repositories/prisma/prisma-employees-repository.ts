@@ -5,18 +5,23 @@ import { EmployeesRepository } from '../employees-repository'
 
 export class PrismaEmployessRepository implements EmployeesRepository {
   async create(data: Prisma.EmployeeCreateInput) {
-    const user = await prisma.employee.create({
+    const employee = await prisma.employee.create({
       data,
     })
 
-    return user
+    return employee
   }
 
   async findById(id: string): Promise<Employee | null> {
-    const user = await prisma.employee.findUnique({
+    const employee = await prisma.employee.findUnique({
       where: { id },
     })
 
-    return user
+    return employee
+  }
+
+  async findAll(): Promise<Employee[]> {
+    const employees = await prisma.employee.findMany()
+    return employees
   }
 }
