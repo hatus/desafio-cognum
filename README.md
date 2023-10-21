@@ -2,6 +2,10 @@
 
 ## Desafio 02
 
+### Objetivo
+
+- Integração com banco de dados e operações CRUD.
+
 ### Informações Adicionais
 
 - Servidor inicializa na porta **3000**
