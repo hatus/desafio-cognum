@@ -44,7 +44,7 @@
 
 ### Rotas do projeto
 
-- Popula o banco de dados com 10 usuário aleatórios:
+- Popula o banco de dados com 10 usuários aleatórios:
 
   - Rota
     ```
