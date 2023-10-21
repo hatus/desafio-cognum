@@ -16,10 +16,6 @@ export class UpdateEmployeeByIdUseCase {
       throw new AppError('Employee not found', 404)
     }
 
-    await this.employeesRepository.updateById({
-      ...employee,
-      id,
-      name,
-    })
+    await this.employeesRepository.updateById(id, name)
   }
 }
